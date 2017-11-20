@@ -67,3 +67,4 @@ unload(function() {
   set_pref(prop_name, old_value);
 });
 
+browser.browserAction.onClicked.addListener(handleClick);
